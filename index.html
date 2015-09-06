@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="index.css" />
+<title>数独游戏</title>
+</head>
+
+<body>
+<div id="shudu_div">
+ <div id="display_panel">
+        <table id="shudu" border="1">
+            <tr>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table class="ceiltable">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="control_panel">
+        <p><label>时间 <input type="text" name="usetime" id="usetime"  readonly="readonly" value="0:0:0"/></label></p>
+     <p>
+         <label>难度 
+                <select id="level">
+                <option value="2">很简单</option>
+                <option value="3">简单</option>
+                <option value="4">中等</option>
+                <option value="5">稍难</option>
+                <option value="6">困难</option>
+                <option value="7">很难</option>
+                <option value="8">艰巨</option>
+                <option value="9">God Like</option>
+                </select>
+            </label>
+         </p>
+        
+         <p><input type="button" value="  开始  " id="begin"/></p>
+         <p><input type="button" value="  完成闯关  " id="finish"  disabled="disabled"/></p>
+    </div>
+</div>
+<div id="test"></div>
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>

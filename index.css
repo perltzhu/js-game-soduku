@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+#shudu_div{
+ width:500px;
+ height:302px;
+ margin:0px auto;
+}
+
+#display_panel{
+ float:left;
+}
+
+#shudu{
+ width:300px;
+ height:300px;
+ border-collapse:collapse;
+ border:medium #333 2px;
+}
+#shudu >td{
+ border:#666 2px solid;
+ width:33%;
+}
+
+.ceiltable{
+ margin:0px auto;
+ border-collapse:collapse;
+ width:97px;
+ height:97px;
+}
+
+.ceiltable td{
+ border:#CCC 1px solid;
+ width:33%;
+ height:33%;
+ text-align:center;
+}
+
+.td_nor{
+ cursor:text;
+}
+
+.td_wrong{
+ background:#F30;
+}
+
+.div_yes{
+ display:block;
+}
+
+.div_no{
+ display:none;
+}
+
+.input_no {
+ display:none;
+}
+
+.input_yes {
+ width:20px;
+ height:20px;
+ background:transparent;
+ font-size:14px;
+}
+
+#control_panel{
+ float:left;
+ width:190px;
+ height:100%;
+}
+
+#control_panel p{
+ padding-left:20px;
+}
+
+#control_panel label{
+ width:20px;
+ text-align:center;
+}
+
+#control_panel label select{
+ width:130px;
+}
+
+#control_panel input{
+ width:180px;
+}
+#control_panel #begin{
+ margin-top:120px;
+}
+
+#control_panel #usetime{
+ width:120px;
+}
